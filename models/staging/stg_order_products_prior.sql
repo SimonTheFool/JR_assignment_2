@@ -1,0 +1,1 @@
+SELECT * FROM {{source('instacart','order_products_prior')}}

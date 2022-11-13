@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: instacart
+    database: IEDM1DB
+    schema: PROJECT
+    tables: 
+      - name: aisles
+      - name: departments
+      - name: products
+      - name: orders
+      - name: order_products_prior
+
+models:
+    - name: stg_orders
+    - name: stg_order_products_prior
